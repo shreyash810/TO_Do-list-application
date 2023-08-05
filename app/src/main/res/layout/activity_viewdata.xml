@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/viewstyle"
+    android:layout_marginBottom="12dp"
+    android:layout_margin="12dp"
+
+    tools:context=".Viewdata">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:background="@drawable/viewstyle"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="monospace"
+                android:text="@string/task_1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="monospace"
+                android:text="priority"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                >
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="monospace"
+                    android:text="date"
+                    android:layout_gravity="end"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="monospace"
+                    android:text="time"
+                    android:layout_gravity="end"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+

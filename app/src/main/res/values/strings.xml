@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TO_DO</string>
+    <string name="your_task">Your Task</string>
+    <string name="x">X</string>
+    <string name="plus">+</string>
+    <string name="task_1">Task 1</string>
+    <string name="desp">desp</string>
+    <string name="enter_your_task">Enter Your Task</string>
+    <string name="save">Save</string>
+    <string name="add_task">Add Task</string>
+    <string name="update">Update</string>
+    <string name="add_your_task">Add Your Task</string>
+    <string name="Task_desp">Task description</string>
+    <string name="Priority">Priority (eg high,low,medium)</string>
+    <string name="delete">delete</string>
+
+</resources>
